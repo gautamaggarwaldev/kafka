@@ -11,7 +11,7 @@ async function init() {
     await consumer.connect();
     console.log("Consumer Connected!");
     console.log("Subscribing to Topic...");
-    await consumer.subscribe({ topic: "rider-updates", fromBeginning: true});
+    await consumer.subscribe({ topic: "rides-updates", fromBeginning: true});
     console.log("Subscribed to Topic!");
     console.log("Running Consumer...");
     await consumer.run({

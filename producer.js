@@ -13,7 +13,7 @@ async function init() {
 
   console.log("Sending Message...");
   await producer.send({
-    topic: "rider-updates",
+    topic: "rides-updates",
     messages: [
       {
         partition: 0,
