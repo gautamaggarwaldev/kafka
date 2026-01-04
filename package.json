@@ -1,0 +1,24 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamaggarwaldev/kafka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gautamaggarwaldev/kafka/issues"
+  },
+  "homepage": "https://github.com/gautamaggarwaldev/kafka#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
